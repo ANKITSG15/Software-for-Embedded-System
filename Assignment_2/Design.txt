@@ -1,0 +1,43 @@
+
+Design Document - 
+
+Name - Ankit Singh Gautam
+ID 	 - 2019H1030518P
+
+Files :- app.c      (Handlers and Schedulars Code)
+		 app_main.c (Application Code)
+		 app_hand.h  (Header Files)
+-------------------------------------------------------------------
+
+Basic Design - 
+
+Step 1:- Calling SVC (to switch to handler mode)
+
+Step 2:- Task Initialization 
+
+Step 3:- Setup PSP(Process Stack Pointer)
+
+Step 4:- Modify EXEC_RETURN to 0xFFFFFFFD and return
+
+Step 5:- Running User Task (Thread Privilege)
+
+1. Structure of TCB :- I have assigned 12 frames of 32 bit for task control block out of 64 stack frames for each three task.
+
+2. Timers - I am using systick timer for generating interrupt using function i.e. SysTick_Config(48000).
+	This help us to generate interrupts after every 48000 CPU cycles. I have also set the priority of the systick using NVIC_SetPriority(SysTick_IRQn, 0x0).
+
+3. Interrupt used - their function  :- I have used three interrupts namely SVC(Supervisor call), Systick(timer interrupt) and PendSV.
+	SVC - As we know that all the OS related activity are done in kernel mode (as per monolithic OS concerned),
+	       For OS and task initilization, processor should be in kernel mode i.e. achieved by raising an interrupt and switching to handler mode. 
+									   
+	Systick - After every mentioned number of CPU cycles, an interrupt is generated, in which schedular is called for selecting the next task
+		to executed and also perform the saving the context of currently running task.
+									   
+	PendSV - It is activated by setting the pending status in ICSR register (SCB->ICSR|=0x10000000;). In the handler for PendSV, we are loading the next
+	        task to be executed(decided by schedular). Priority is set using NVIC_SetPriority(PendSV_IRQn , 0xFF).
+
+4. Task Switching :- This is occured in two step, first saving the context of the current task in the Systick handler and 
+	secondly loading the context or state for next selected task for execution.
+
+
+ 
