@@ -5,7 +5,7 @@ For Assignment-1 : HAL Implementation(Without using library)
 
     RCC->AHB1ENR = 0x000001FF;(Choose according to the GPIO ports(A-I) you want to enable the bus here all 9 bits are one)
 		
-    1. Open the project in Keil
+    1. Open the DTH22 folder and choose open project and select DHT11(uVision5 Project) in Keil.
        
     2. dht.c file method- int main(void)
     
