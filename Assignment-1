@@ -1,0 +1,36 @@
+Write a HAL layer using structures.
+
+Implement the following functionalities
+
+   1) For initializing the GPIO port.
+      The HAL function will accept pointers to two structure
+      a) one with the GPIO port name
+      b) other with the values to be passed to the registers
+  2) For reading the GPIO port.
+     a) For setting/resetting individual bits of the port
+     b) For toggling the GPIO port.
+	 
+Hardware :- STM32F407IGHx
+IDE :- Keil uVision5
+	 
+Implementation Details :-
+	 
+	STM32F407IGHx microcontroller has 9 ports from GPIO-A to GPIO-I. Each ports have 16 pins.
+	 
+	The functionality and state of each port is controlled by a number of GPIO registers:
+		 Four configuration registers
+		 Two data registers
+		 One set/reset register - Bit Set/Reset Register – GPIOx_BSSR
+		 One locking register  
+		 Two alternative function registers - GPIO alternate function low register (GPIOx_AFRL) and GPIO alternate function high register (GPIOx_AFRH)
+		
+	 Four configuration registers
+		1. Port mode register – GPIOx_MODER
+		2. Speed Register – GPIOx_OSPEEDR
+		3. Output Type Register – GPIOx_OTYPER
+		4. Pull-up/Pull-down register – GPIOx_PUPDR
+	
+	 Two data registers
+		1. Input data register – GPIOx_IDR
+		2. Output data register – GPIOx_ODR
+		
