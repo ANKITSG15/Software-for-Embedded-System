@@ -1,7 +1,10 @@
 # Software-for-Embedded-System
 This course introduces the issues and challenges in developing software for embedded system.
 
-For Assignment-1 : HAL Implementation(Without using library)
+For Assignment-2 : Please refer the Assignment-2 folder.
+For Assignment-3 : Please refer the Assignment-3 folder
+
+For Assignment-1 : Please refert DHT22 folder - HAL Implementation(Without using library)
 
     RCC->AHB1ENR = 0x000001FF;(Choose according to the GPIO ports(A-I) you want to enable the bus here all 9 bits are one)
 		
