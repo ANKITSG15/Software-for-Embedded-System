@@ -2,7 +2,8 @@
 This course introduces the issues and challenges in developing software for embedded system.
 
 For Assignment-2 : Please refer the Assignment-2 folder.
-For Assignment-3 : Please refer the Assignment-3 folder
+
+For Assignment-3 : Please refer the Assignment-3 folder.
 
 For Assignment-1 : Please refert DHT22 folder - HAL Implementation(Without using library)
 
