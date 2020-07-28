@@ -1,0 +1,45 @@
+Dependencies for Project 'Prac1', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::ARMCC
+F (.\app.c)(0x5F19F825)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Users\ASG\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\ASG\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F479xx-o .\objects\app.o --omf_browse .\objects\app.crf --depend .\objects\app.d)
+I (C:\Users\ASG\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x5C5BB34A)
+I (C:\Users\ASG\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f479xx.h)(0x5C5BB34A)
+I (C:\Users\ASG\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D25B3DE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AF540)
+I (C:\Users\ASG\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D25B3DE)
+I (C:\Users\ASG\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25B3DE)
+I (C:\Users\ASG\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25B3DE)
+I (C:\Users\ASG\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F70FC)
+I (C:\Users\ASG\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x5C5BB34A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AF542)
+F (.\app_main.c)(0x5F19F825)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Users\ASG\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\ASG\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F479xx-o .\objects\app_main.o --omf_browse .\objects\app_main.crf --depend .\objects\app_main.d)
+I (C:\Users\ASG\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x5C5BB34A)
+I (C:\Users\ASG\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f479xx.h)(0x5C5BB34A)
+I (C:\Users\ASG\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D25B3DE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AF540)
+I (C:\Users\ASG\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D25B3DE)
+I (C:\Users\ASG\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25B3DE)
+I (C:\Users\ASG\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25B3DE)
+I (C:\Users\ASG\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F70FC)
+I (C:\Users\ASG\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x5C5BB34A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AF542)
+I (app_hand.h)(0x5F19F825)
+F (.\app_hand.h)(0x5F19F825)()
+F (C:\Users\ASG\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.2\Source\retarget_io.c)(0x584E4CE6)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Users\ASG\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\ASG\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F479xx-o .\objects\retarget_io.o --omf_browse .\objects\retarget_io.crf --depend .\objects\retarget_io.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AF540)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AF540)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AF542)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AF542)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5D9AF53A)
+I (C:\Keil_v5\ARM\ARMCC\include\rt_sys.h)(0x5D9AF540)
+I (.\RTE\_Target_1\RTE_Components.h)(0x5F19F8C4)
+F (RTE\Device\STM32F479IGHx\startup_stm32f479xx.s)(0x5F19F828)(--cpu Cortex-M4.fp.sp --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\_Target_1-IC:\Users\ASG\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\ASG\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include--pd "__UVISION_VERSION SETA 529" --pd "_RTE_ SETA 1" --pd "STM32F479xx SETA 1"--list .\listings\startup_stm32f479xx.lst --xref -o .\objects\startup_stm32f479xx.o --depend .\objects\startup_stm32f479xx.d)
+F (RTE\Device\STM32F479IGHx\system_stm32f4xx.c)(0x5F19F828)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Users\ASG\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\ASG\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F479xx-o .\objects\system_stm32f4xx.o --omf_browse .\objects\system_stm32f4xx.crf --depend .\objects\system_stm32f4xx.d)
+I (C:\Users\ASG\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x5C5BB34A)
+I (C:\Users\ASG\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f479xx.h)(0x5C5BB34A)
+I (C:\Users\ASG\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D25B3DE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AF540)
+I (C:\Users\ASG\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D25B3DE)
+I (C:\Users\ASG\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25B3DE)
+I (C:\Users\ASG\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25B3DE)
+I (C:\Users\ASG\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F70FC)
+I (C:\Users\ASG\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x5C5BB34A)
