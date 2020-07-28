@@ -24,4 +24,5 @@ For Assignment-1 : Please refert DHT22 folder - HAL Implementation(Without using
     
     3. If you have hardware, test the pins configuration by blinking of LEDs.
     
-    4. In case of no hardware, run the code in debug mode and open the watch window and check the value of variable and register accordingly.
+    4. In case of no hardware, run the code in debug mode and open the watch window 
+       and check the value of variable and register accordingly.
